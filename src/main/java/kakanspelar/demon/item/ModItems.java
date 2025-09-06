@@ -13,19 +13,20 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item INFERNAL_STEEL = registerItem("infernal_steel", new Item(new FabricItemSettings()));
+    public static final Item RAW_INFERNAL = registerItem("raw_infernal", new Item(new FabricItemSettings()));
 
-    private static void addItemToIngredientTabGroup(FabricItemGroupEntries entries) {
+    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(INFERNAL_STEEL);
+        entries.add(RAW_INFERNAL);
     }
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(DemonsArsenal.MOD_ID, name), item);
     }
 
-
     public static void registerModItems() {
-        DemonsArsenal.LOGGER.info("Registering Mod Items For " + DemonsArsenal.MOD_ID);
+        DemonsArsenal.LOGGER.info("Registering Mod Items for " + DemonsArsenal.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemToIngredientTabGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
 }

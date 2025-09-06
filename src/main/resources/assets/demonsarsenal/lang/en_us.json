@@ -1,3 +1,9 @@
 {
-  "item.demonsarsenal.infernal_steel": "Infernal steel"
+  "item.demonsarsenal.infernal_steel": "Infernal steel",
+  "item.demonsarsenal.raw_infernal": "Raw Infernal",
+
+  "itemgroup.demons_arsenal_item_group": "Demon's Arsenal",
+
+  "block.demonsarsenal.infernal_block": "Block of Infernal Steel",
+  "block.demonsarsenal.infernal_ore": "Infernal_ore"
 }
