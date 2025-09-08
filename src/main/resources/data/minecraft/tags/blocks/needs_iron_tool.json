@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "demonsarsenal:infernal_ore"
+    "demonsarsenal:infernal_block",
+    "demonsarsenal.raw_infernal_block"
   ]
 }
