@@ -14,14 +14,9 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block INFERNAL_BLOCK = registerBlock("infernal_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
-    public static final Block INFERNAL_ORE = registerBlock("infernal_ore",
-            new Block(FabricBlockSettings
-                    .of()                            // No Material class needed
-                    .strength(4.0f, 100.0f)            // Hardness & blast resistance
-                    .requiresTool()                  // Requires the correct tool
-                    .sounds(BlockSoundGroup.STONE)   // Sound when mined/placed
-            ));
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block RAW_INFERNAL_BLOCK = registerBlock("raw_infernal_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
 
 
     private static Block registerBlock(String name, Block block) {
