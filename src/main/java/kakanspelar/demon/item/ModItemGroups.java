@@ -22,7 +22,7 @@ public class ModItemGroups {
                         entries.add(ModItems.INFERNAL_STEEL);
                         entries.add(ModItems.RAW_INFERNAL);
                         entries.add(ModBlocks.INFERNAL_BLOCK);
-                        entries.add(ModBlocks.INFERNAL_ORE);
+                        entries.add(ModBlocks.RAW_INFERNAL_BLOCK);
                     })
                     .build()
     );

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "demonsarsenal:infernal_block"
+    }
+  ],
+  "result": {
+    "item": "demonsarsenal:infernal_steel",
+    "count": 9
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.7,
+  "group": "raw_infernal",
+  "ingredient": {
+    "item": "demonsarsenal:raw_infernal"
+  },
+  "result": "demonsarsenal:infernal_steel"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 3,
+  "group": "raw_infernal",
+  "ingredient": {
+    "item": "demonsarsenal:raw_infernal"
+  },
+  "result": "demonsarsenal:infernal_steel"
+}

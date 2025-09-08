@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "demonsarsenal:infernal_steel"
+    }
+  },
+  "result": {
+    "item": "demonsarsenal:infernal_block"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "demonsarsenal:raw_infernal_block"
+    }
+  ],
+  "result": {
+    "item": "demonsarsenal:raw_infernal",
+    "count": 9
+  }
+}
