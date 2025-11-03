@@ -23,6 +23,9 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_INFERNAL);
                         entries.add(ModBlocks.INFERNAL_BLOCK);
                         entries.add(ModBlocks.RAW_INFERNAL_BLOCK);
+                        entries.add(ModBlocks.NETHER_INFERNAL_ORE);
+                        entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModBlocks.SOUND_BLOCK);
                     })
                     .build()
     );

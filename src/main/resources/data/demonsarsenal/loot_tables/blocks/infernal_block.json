@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "raw_infernal_block"
+          "name": "demonsarsenal:infernal_block"
         }
       ],
       "rolls": 1.0

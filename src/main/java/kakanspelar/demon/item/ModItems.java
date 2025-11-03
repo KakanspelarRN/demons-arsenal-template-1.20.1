@@ -1,7 +1,7 @@
 package kakanspelar.demon.item;
 
 import kakanspelar.demon.DemonsArsenal;
-import kakanspelar.demon.DemonsArsenalClient;
+import kakanspelar.demon.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -14,6 +14,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item INFERNAL_STEEL = registerItem("infernal_steel", new Item(new FabricItemSettings()));
     public static final Item RAW_INFERNAL = registerItem("raw_infernal", new Item(new FabricItemSettings()));
+    public static final Item METAL_DETECTOR = registerItem("metal_detector",
+            new MetalDetectorItem(new FabricItemSettings().maxDamage(264)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(INFERNAL_STEEL);

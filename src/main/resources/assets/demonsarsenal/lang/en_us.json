@@ -1,9 +1,14 @@
 {
-  "item.demonsarsenal.infernal_steel": "Infernal steel",
+  "item.demonsarsenal.infernal_steel": "Infernal Steel",
   "item.demonsarsenal.raw_infernal": "Raw Infernal",
+  "item.demonsarsenal.metal_detector": "Ore Detector",
 
   "itemgroup.demons_arsenal_item_group": "Demon's Arsenal",
 
   "block.demonsarsenal.infernal_block": "Block of Infernal Steel",
-  "block.demonsarsenal.raw_infernal_block": " Block of Raw infernal steel"
+  "block.demonsarsenal.raw_infernal_block": "Block of Raw Infernal Steel",
+  "block.demonsarsenal.infernal_ore": "Infernal Ore",
+  "block.demonsarsenal.sound_block": "Canetis O Block",
+
+  "block.demonsarsenal.___": "___.Debug"
 }

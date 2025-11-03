@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GIG",
+    "IDI",
+    "GSG"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    },
+    "D": {
+      "item": "demonsarsenal:infernal_steel"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "demonsarsenal:metal_detector",
+    "count": 1
+  }
+}
